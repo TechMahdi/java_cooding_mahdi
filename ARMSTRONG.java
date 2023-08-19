@@ -16,7 +16,7 @@ public class JavaApplication4 {
             while(temp>0)
             {
                  r=temp%10;
-                sum=sum + r*r*r;
+                sum=sum +(int) Math.pow(r, 3);
                 temp/=10;
                 
                 
