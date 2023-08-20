@@ -63,4 +63,39 @@ public class JavaApplication4 {
     
 
 }
-  
+pattern :03
+ *  *  *  *  * 
+ *  *  *  * 
+ *  *  * 
+ *  * 
+
+                            
+package javaapplication4;
+
+import static java.lang.Math.pow;
+import java.util.Scanner;
+
+public class JavaApplication4 {
+
+    
+    public static void main(String[] args) {
+     Scanner input = new Scanner(System.in);
+        
+        int n;
+        int row ,col;
+        n=input.nextInt();
+        for(row =n;row>=1;--row)
+        {
+            for(col=1;col<=row;col++)
+            {
+                System.out.print(" * ");
+            }
+            System.out.print("\n");
+        }
+         
+    }
+    
+
+}                            
+
+}
