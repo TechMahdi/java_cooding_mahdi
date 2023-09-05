@@ -18,7 +18,7 @@ public class arraylist {
         sb.append(56.78);
         sb.append(4f);
         sb.append('c');
-        System.out.println("khulud binthe harun"+sb);
+        System.out.println("ki hobe kore aegula "+sb);
         sb.delete(0, 5);
         System.out.println("the bah is "+sb);
         
